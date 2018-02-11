@@ -1,0 +1,25 @@
+{
+  "name": "elm-ballpool",
+  "version": "1.0.0",
+  "description": "A demo of a toy physics engine written in pure Elm.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack -p"
+  },
+  "author": "TAKAHASHI Yuto <ytaka23dev@gmail.com>",
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/y-taka-23/elm-ballpool.git"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.9",
+    "elm-webpack-loader": "^4.4.0",
+    "file-loader": "^1.1.6",
+    "frow": "^3.0.1",
+    "style-loader": "^0.19.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
+  }
+}
