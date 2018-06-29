@@ -164,7 +164,7 @@ ballSlider model =
 
 gravitySlider : Model -> List (Html Msg)
 gravitySlider model =
-    [ Html.label [ Html.for "balls" ] [ Html.text "Gravity" ]
+    [ Html.label [ Html.for "gravity" ] [ Html.text "Gravity" ]
     , Html.input
         [ Html.id "gravity"
         , Html.type_ "range"
